@@ -1,6 +1,6 @@
 # npmtest-ionic-native-transitions
 
-#### test coverage for  [ionic-native-transitions (v1.0.3)](https://github.com/shprink/ionic-native-transitions)  [![npm package](https://img.shields.io/npm/v/npmtest-ionic-native-transitions.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-ionic-native-transitions) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-ionic-native-transitions.svg)](https://travis-ci.org/npmtest/node-npmtest-ionic-native-transitions)
+#### basic test coverage for  [ionic-native-transitions (v1.0.3)](https://github.com/shprink/ionic-native-transitions)  [![npm package](https://img.shields.io/npm/v/npmtest-ionic-native-transitions.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-ionic-native-transitions) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-ionic-native-transitions.svg)](https://travis-ci.org/npmtest/node-npmtest-ionic-native-transitions)
 
 #### Native transitions for Ionic applications
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-ionic-native-transitions/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-ionic-native-transitions/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-ionic-native-transitions/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-ionic-native-transitions/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-ionic-native-transitions/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-ionic-native-transitions/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-ionic-native-transitions/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-ionic-native-transitions/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-ionic-native-transitions/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-ionic-native-transitions/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-ionic-native-transitions/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-ionic-native-transitions/build/coverage.html/index.html)
 
@@ -116,7 +116,8 @@
         "start": "webpack-dev-server --port 8080 --json --progress",
         "watch": "webpack --watch --progress --colors --config webpack.config.dist.js -d"
     },
-    "version": "1.0.3"
+    "version": "1.0.3",
+    "bin": {}
 }
 ```
 
